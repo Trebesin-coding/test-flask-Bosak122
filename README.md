@@ -13,3 +13,23 @@
 ## JSON
 
 8.  data z formuláře ulož také do JSON recenze.json ve složce data
+
+## Hodnocení
+
+✅
+
+🚩špatná cesta v linku, css ve špatné složce
+
+🚩chybí uzavření formuláře
+
+🚩chybí name ve formuláři, s proměnnými login a odpoved se dále nepracuje, program neposílá zpět žádná data zpět
+
+🚩je tam nějaký print, místo poslání odpovědi zpět
+
+❌jinja má 2x složené závorky, {{}}
+
+✅
+
+🚩json nemůže být název proměnné, protože je to knihovna, špatná cesta ve with open, špatná cesta ve špatné proměnné json, chybí zavolání funkce save_data()
+
+### Známka: 4
